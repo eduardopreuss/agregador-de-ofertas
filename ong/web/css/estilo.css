@@ -1,0 +1,173 @@
+@charset "UTF-8";
+@import 'https://fonts.googleapis.com/css?family=Raleway';
+
+*{
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    color: #939da8;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body {
+    min-height: 600px;
+    background-image: url('.../imagens/background.jpg'); 
+    background-repeat: repeat; 
+    background-position: top left; 
+    background-attachment: scroll;
+    
+}
+
+.container {
+   min-height: 700px;
+   max-width: 700px;
+}
+
+/*pra tirar as setas  na lateral do campo input type="number"*/
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.login {
+    width: 500px;
+    display: block;
+    position: relative;
+    background: rgba(255, 255, 255, 0.5);
+    margin: 0 auto;
+}
+
+.login input {
+    max-width: 400px;
+    
+}
+
+/*************TOPO***************/
+
+#header {
+    background-color: #eaeaea;
+
+	height: 77px;
+	position: relative;
+	width: 100%;
+	
+        padding-top: 0;
+}
+
+#lateral {
+    padding-left: 0;
+    height: 100%;
+    background-color: #f9f9f4;
+}
+
+#logo {
+    max-width: 250px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+
+#acessibilidade {
+    position: absolute;
+    left: 600px;
+    top: 0px;
+    
+    margin: 0;
+    right: 0;
+}
+
+
+
+a.font-button {
+    color: #a5cd39;
+}
+
+a.font-button:hover, a.font-button:visited, a.font-button:active, a.font-button:focus {
+    color: #93b82e !important; 
+}
+
+
+/*************MENU***************/
+
+.menu {
+    display: block;
+    float: left;
+    position: relative;
+    width: 100%;
+   
+    min-height: 600px;
+    padding-left: 0;
+    background-color: #f9f9f4;
+    
+}
+
+.menu > ul {
+    
+}
+
+.menu > ul {
+	list-style: none;
+	margin: 0px 0 0;
+	padding: 0;
+	position: absolute;
+	width: 100%;
+}
+.menu > ul > li {
+	display: block;
+	position: relative;
+}
+.menu > ul > li > a {
+	padding: 10px 0 10px 15px;
+	display: block;
+	color: #939da8;
+}
+.menu > ul > li > a > i {
+	margin-right: 10px;
+}
+.menu > ul > li.active > a {
+	background: url("../img/menu-active.png") no-repeat scroll right center transparent !important;
+	text-decoration:none;
+}
+.menu > ul > li > a > .label {
+	margin: 0 20px 0 0;
+	float: right;
+	padding: 3px 5px 2px;
+}
+.menu > ul li ul {
+	display: none;
+	margin: 0;
+	padding: 0;
+}
+.menu > ul li.open ul {
+	display: block;
+}
+.menu > ul li ul li a {
+	padding: 10px 0 10px 25px;
+	display: block;
+	color: #777777;
+}
+.menu > ul li ul li:first-child a {
+	border-top: 0;
+}
+.menu > ul li ul li:last-child a {
+	border-bottom: 0;
+}
+
+.erro{
+    color: red;
+}
+
+.resultado{
+    color: green;
+}
+
+tab { padding-left: 12em; }
+
+

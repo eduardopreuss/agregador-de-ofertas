@@ -1,4 +1,4 @@
-# agregador-de-ofertas
+# site-para-ong
 
 Libs usadas: Glassfish 4.1.1, JDK 1.8 e ojdbc6.jar
 
